@@ -1,0 +1,8 @@
+model_name: "nemotron-nano-9b-v2"
+organization: "nvidia"
+full_model_identifier: "nvidia/nemotron-nano-9b-v2"
+llm_config:
+  provider: "open_router"
+  cost_in: 0.04
+  cost_out: 0.16
+  cost_unit: 1_000_000

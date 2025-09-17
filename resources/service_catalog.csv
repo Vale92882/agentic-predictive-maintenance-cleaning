@@ -1,0 +1,76 @@
+system,subsystem,component,activity,synonyms,strategy_type
+Powertrain,Engine,Cylinder Head,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Engine,Turbocharger,Replace,"replace, change-out, fit, remove, install",Corrective
+Powertrain,Engine,Turbocharger,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Transmission,Clutch,Replace,"replace, change-out, fit, remove, install",Corrective
+Powertrain,Transmission,Clutch,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Transmission,Clutch,Diagnose,"check, investigate, test, analyse",Corrective
+Powertrain,Transmission,Gearbox,Replace,"replace, change-out, fit, remove, install",Corrective
+Powertrain,Transmission,Gearbox,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Transmission,Gearbox,Diagnose,"check, investigate, test, analyse",Corrective
+Powertrain,Driveline,Driveshaft,Replace,"replace, change-out, fit, remove, install",Corrective
+Powertrain,Driveline,Driveshaft,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Driveline,Driveshaft,Diagnose,"check, investigate, test, analyse",Corrective
+Powertrain,Driveline,Differential,Replace,"replace, change-out, fit, remove, install",Corrective
+Powertrain,Driveline,Differential,Repair,"repair, weld, rebuild, reseal",Corrective
+Powertrain,Driveline,Differential,Diagnose,"check, investigate, test, analyse",Corrective
+Brake System,Hydraulic Brake,Brake Disc,Replace,"replace, change-out, fit, remove, install",Corrective
+Brake System,Hydraulic Brake,Brake Disc,Repair,"repair, weld, rebuild, reseal",Corrective
+Brake System,Hydraulic Brake,Brake Disc,Diagnose,"check, investigate, test, analyse",Corrective
+Brake System,Air Brake,Air Compressor,Replace,"replace, change-out, fit, remove, install",Corrective
+Brake System,Air Brake,Air Compressor,Repair,"repair, weld, rebuild, reseal",Corrective
+Brake System,Air Brake,Air Compressor,Diagnose,"check, investigate, test, analyse",Corrective
+Brake System,Air Brake,Brake Chamber,Replace,"replace, change-out, fit, remove, install",Corrective
+Brake System,Air Brake,Brake Chamber,Repair,"repair, weld, rebuild, reseal",Corrective
+Brake System,Air Brake,Brake Chamber,Diagnose,"check, investigate, test, analyse",Corrective
+Electrical System,Charging System,Alternator,Replace,"replace, change-out, fit, remove, install",Corrective
+Electrical System,Charging System,Alternator,Repair,"repair, weld, rebuild, reseal",Corrective
+Electrical System,Charging System,Alternator,Diagnose,"check, investigate, test, analyse",Corrective
+Electrical System,Starting System,Starter Motor,Replace,"replace, change-out, fit, remove, install",Corrective
+Electrical System,Starting System,Starter Motor,Repair,"repair, weld, rebuild, reseal",Corrective
+Electrical System,Starting System,Starter Motor,Diagnose,"check, investigate, test, analyse",Corrective
+HVAC,Cooling,Radiator,Replace,"replace, change-out, fit, remove, install",Corrective
+HVAC,Cooling,Radiator,Repair,"repair, weld, rebuild, reseal",Corrective
+HVAC,Cooling,Radiator,Diagnose,"check, investigate, test, analyse",Corrective
+HVAC,Cooling,Coolant Pump,Replace,"replace, change-out, fit, remove, install",Corrective
+HVAC,Cooling,Coolant Pump,Repair,"repair, weld, rebuild, reseal",Corrective
+HVAC,Cooling,Coolant Pump,Diagnose,"check, investigate, test, analyse",Corrective
+HVAC,Heating,Heater Core,Replace,"replace, change-out, fit, remove, install",Corrective
+HVAC,Heating,Heater Core,Repair,"repair, weld, rebuild, reseal",Corrective
+HVAC,Heating,Heater Core,Diagnose,"check, investigate, test, analyse",Corrective
+HVAC,Air Conditioning,Compressor,Replace,"replace, change-out, fit, remove, install",Corrective
+HVAC,Air Conditioning,Compressor,Repair,"repair, weld, rebuild, reseal",Corrective
+HVAC,Air Conditioning,Compressor,Diagnose,"check, investigate, test, analyse",Corrective
+Suspension,Front Suspension,Shock Absorber,Replace,"replace, change-out, fit, remove, install",Corrective
+Suspension,Front Suspension,Shock Absorber,Repair,"repair, weld, rebuild, reseal",Corrective
+Suspension,Front Suspension,Shock Absorber,Diagnose,"check, investigate, test, analyse",Corrective
+Suspension,Rear Suspension,Leaf Spring,Replace,"replace, change-out, fit, remove, install",Corrective
+Suspension,Rear Suspension,Leaf Spring,Repair,"repair, weld, rebuild, reseal",Corrective
+Suspension,Rear Suspension,Leaf Spring,Diagnose,"check, investigate, test, analyse",Corrective
+Suspension,Rear Suspension,Air Spring,Replace,"replace, change-out, fit, remove, install",Corrective
+Suspension,Rear Suspension,Air Spring,Repair,"repair, weld, rebuild, reseal",Corrective
+Suspension,Rear Suspension,Air Spring,Diagnose,"check, investigate, test, analyse",Corrective
+Steering,Power Steering,Pump,Replace,"replace, change-out, fit, remove, install",Corrective
+Steering,Power Steering,Pump,Repair,"repair, weld, rebuild, reseal",Corrective
+Steering,Power Steering,Pump,Diagnose,"check, investigate, test, analyse",Corrective
+Steering,Rack and Pinion,Steering Rack,Replace,"replace, change-out, fit, remove, install",Corrective
+Steering,Rack and Pinion,Steering Rack,Repair,"repair, weld, rebuild, reseal",Corrective
+Steering,Rack and Pinion,Steering Rack,Diagnose,"check, investigate, test, analyse",Corrective
+Body,Doors,Hinges,Replace,"replace, change-out, fit, remove, install",Corrective
+Body,Doors,Hinges,Repair,"repair, weld, rebuild, reseal",Corrective
+Body,Windows,Window Motor,Replace,"replace, change-out, fit, remove, install",Corrective
+Body,Windows,Window Motor,Repair,"repair, weld, rebuild, reseal",Corrective
+Body,Windows,Window Motor,Diagnose,"check, investigate, test, analyse",Corrective
+Exhaust,Emission Control,Catalytic Converter,Replace,"replace, change-out, fit, remove, install",Corrective
+Exhaust,Emission Control,Catalytic Converter,Repair,"repair, weld, rebuild, reseal",Corrective
+Exhaust,Silencing,Muffler,Replace,"replace, change-out, fit, remove, install",Corrective
+Exhaust,Silencing,Muffler,Repair,"repair, weld, rebuild, reseal",Corrective
+Fuel System,Delivery,Fuel Pump,Replace,"replace, change-out, fit, remove, install",Corrective
+Fuel System,Delivery,Fuel Pump,Repair,"repair, weld, rebuild, reseal",Corrective
+Fuel System,Delivery,Fuel Pump,Diagnose,"check, investigate, test, analyse",Corrective
+Fuel System,Storage,Fuel Tank,Replace,"replace, change-out, fit, remove, install",Corrective
+Fuel System,Storage,Fuel Tank,Repair,"repair, weld, rebuild, reseal",Corrective
+Fuel System,Storage,Fuel Tank,Diagnose,"check, investigate, test, analyse",Corrective
+Fuel System,Control and Monitoring,Flowmeter,Replace,"replace, change-out, fit, remove, install",Corrective
+Fuel System,Control and Monitoring,Flowmeter,Repair,"repair, weld, rebuild, reseal",Corrective
+Fuel System,Control and Monitoring,Flowmeter,Diagnose,"check, investigate, test, analyse",Corrective

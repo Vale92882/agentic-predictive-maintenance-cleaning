@@ -1,0 +1,10 @@
+benchmark_id: benchmark_gpt-oss-20b
+fleet_id: 'fleet_ubix'
+models: ["gpt-oss-20b"]
+research_space: 'space_1'
+enable_logfire: false
+runs: 1
+experiments:
+  exp1:
+    experiment_type: zero_shot
+    num_records: 1

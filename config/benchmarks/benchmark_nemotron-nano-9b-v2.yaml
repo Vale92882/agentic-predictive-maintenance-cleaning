@@ -1,0 +1,10 @@
+benchmark_id: benchmark_nemotron-nano-9b-v2
+fleet_id: 'fleet_ubix'
+models: ["nemotron-nano-9b-v2"]
+research_space: 'space_1'
+enable_logfire: false
+runs: 5
+experiments:
+  exp1:
+    experiment_type: zero_shot
+    num_records: 1

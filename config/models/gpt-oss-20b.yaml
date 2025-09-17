@@ -1,0 +1,8 @@
+model_name: "gpt-oss-20b"
+organization: "openai"
+full_model_identifier: "openai/gpt-oss-20b"
+llm_config:
+  provider: "open_router"
+  cost_in: 0.04
+  cost_out: 0.15
+  cost_unit: 1_000_000

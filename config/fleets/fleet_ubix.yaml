@@ -1,0 +1,51 @@
+# config/device_dataset_config.yaml
+
+global_params:
+  fleet_id: fleet_ubix
+  country: luxembourg
+  monitoring_start_date: "01-01-2016 00:00"
+  monitoring_end_date: "01-01-2025 00:00"
+  model: "llama3.1:latest"
+  seed: 6
+
+fleet_registry:
+  generators:
+    - type: CleanFleetRegistryEntryGenerator
+      params:
+        country: luxembourg
+        count: 210
+
+maintenance_log:
+  service_catalog_path: resources/service_catalog.csv
+  start_extract_date: 01-01-2020
+  end_extract_date: 01-01-2023
+  generators:
+    - type: CleanMainTabEntryGenerator
+      params:
+        count: 30
+    - type: OutOfFleetVehicleGenerator
+      params:
+        count: 30
+    - type: DigitalSystemTestGenerator
+      params:
+        count: 30
+    - type: VehicleIdMisalignmentGenerator
+      params:
+        count: 30
+    - type: InvalidValueGenerator
+      params:
+        count: 30
+    - type: MissingValueGenerator
+      params:
+        count: 30
+    - type: WrongEndDateGenerator
+      params:
+        count: 30
+
+signals:
+  odometer:
+    generators:
+      - type: CleanOdometerGenerator
+        params:
+          count: 500
+    noise_generators:

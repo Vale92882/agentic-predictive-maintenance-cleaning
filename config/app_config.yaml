@@ -1,0 +1,44 @@
+app:
+  # Application name
+  name: AgenticPdmDataCleaner
+  # Application version
+  version: 0.0.1
+  # Application description
+  description: This is an application for cleaning PdM Maintenance Logs
+
+logger:
+  handlers:
+    console:
+      class: logging.StreamHandler
+      formatter: default
+    file:
+      class: logging.FileHandler
+      filename: app.log
+      formatter: default
+      level: DEBUG
+      formatter: detailed
+    rotating_file:
+      class: logging.handlers.RotatingFileHandler
+      formatter: default
+      filename: app_rotating.log
+      maxBytes: 10485760  # 10MB
+      backupCount: 5
+      formatter: detailed
+
+  formatters:
+    default:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+log:
+  # Enable logging
+  enabled: true
+  # Log file path
+  dir_path: "logs"
+  # Log level
+  log_level: INFO
+  # Handler
+  handler: 'console'
+
+data:
+  # Data directory path
+  dir_path: "data"

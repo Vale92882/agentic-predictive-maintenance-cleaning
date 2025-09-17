@@ -1,0 +1,10 @@
+benchmark_id: benchmark_ubix
+fleet_id: 'fleet_ubix'
+models: ["nemotron-nano-9b-v2", "gpt-oss-20b", "gpt-oss-120b", "qwen3-next-80b-a3b-instruct", "kimi-k2-0905", "gpt-5"]
+hyperparameters_space: 'space_1'
+enable_logfire: false
+runs: 1
+experiments:
+  zero_shot:
+    experiment_type: zero_shot
+    num_records: 1

@@ -1,0 +1,8 @@
+model_name: "kimi-k2-0905"
+organization: "moonshotai"
+full_model_identifier: "moonshotai/kimi-k2-0905"
+llm_config:
+  provider: "open_router"
+  cost_in: 0.38
+  cost_out: 1.522
+  cost_unit: 1_000_000

@@ -1,0 +1,8 @@
+model_name: "gpt-5"
+organization: "openai"
+full_model_identifier: "openai/gpt-5"
+llm_config:
+  provider: "open_router"
+  cost_in: 1.25
+  cost_out: 10
+  cost_unit: 1_000_000

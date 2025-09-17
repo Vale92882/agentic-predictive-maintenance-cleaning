@@ -1,0 +1,8 @@
+llm_search_space:
+  temperature:
+    # choose ONE of the two forms below:
+    uniform: [0.0, 0.2]
+    # choices: [0.0, 0.2, 0.4, 0.7]
+  top_p:
+    uniform: [0.7, 1.0]
+    # choices: [0.8, 0.9, 1.0]
